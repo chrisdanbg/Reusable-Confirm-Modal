@@ -24,4 +24,5 @@ This action is final and the item cannot be restored!">
 </a>
 ```
 _Screenshot:_
+======
 ![deleteModal.JPG](https://i.imgur.com/bRgB4eP.jpg)
