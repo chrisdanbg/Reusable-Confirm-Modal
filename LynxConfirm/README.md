@@ -1,9 +1,11 @@
 # **Reusable Confrim Modal**
  
-**It's important to mark the item as "delete" class.**
-**The JS code creates a POST request to the Delete action should be POST**
+It's important to mark the item as "delete" class.
+
+The JS code creates a POST request to the Delete action should be POST
 
 _Parameters:_
+
 ```sh
 class="delete" - _Required_
 data-controller - _The controller that holds the action that will be executed on confirm._
@@ -13,6 +15,7 @@ data-item-Name = _The Type Name that will be displayed in the following LynxAler
 data-body-message = _The Text confirmation message that will be shown on modal open_.
 ```
 _Sample Code:_
+
 ```sh
 <a class="delete" data-id="@item.ID"
   data-controller="Target" 
